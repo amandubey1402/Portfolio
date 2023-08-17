@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<div class="details">
+    <html lang="en">
+</div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="astrologer.css">
+  <link rel="stylesheet" media="screen and (max-width:415px)" href="astromini.css">
+  <link rel="stylesheet" media="screen and (max-width:415px)" href="astromini.html  ">
+    <script src="./jq/jquery.js"></script>
+</head>
+
+<body onload="myfunc()">
+    <div id="preloader"></div>
+    <!-- <div class="stat">
+        <span>Start Chat</span>
+        <p class="sign">-</p>
+    </div>
+    <div class="chatbox">
+    <div class="contain">
+        <p class="paragra">
+            Lorem ipsum dolor sit amet consecteturnisi repellat! Voluptate sequi est accusantium nobis odio excepturi itaque tenetur omnis nulla, consectetur repudiandae optio!
+        </p>
+        <label for="name">Name*</label><br>
+        <input type="text" id="Name"><br><br>
+        <label for="Email">Email*</label><br>
+        <input type="text" id="Name"><br><br>
+        <label for="Message">Message*</label><br>
+        <input type="text" id="Name">
+        <button>Start Chat</button>
+    </div>  
+    </div> -->
+    <img src="./photo/bg1.jpg" alt="">
+    <div class="loading">
+        <img src='./photo/ckakra.png' alt="">
+    </div>
+    <header>
+        <div class="logo">
+            <img src="./photo/astro.svg" alt="">
+        </div>
+        <div class="detail">
+            <div class="contact">
+                <img src="./photo/contact.png" alt="">
+                <p> +919307993551</p>
+            </div>
+            <div class="gmail">
+                <img src="./photo/msg.png" alt="">
+                <p> amanseemadubey@gmail.com</p>
+            </div>
+            <div class="nav">
+            <ul>
+                <li class="active"><a href="">HOME</a></li>
+                <li><a href="#About"> ABOUT US</a></li>
+                <li><a href="#service">SERVICE</a> </li>
+                <li><a href="#contact">CONTACT</a> </li>
+            </ul>
+            </div>
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div class="para">
+        <p> What's Your Sign ?</p>
+        <h1>Read Your Daily Horoscope Today</h1>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime provident ea aut quisquam nemo ad vel
+            porro tenetur consequatur amet.</span>
+        <br>
+        <button>Read More</button>
+    </div>
+    <div class="knowmore">
+        <div class="imgscroll">
+            <div class="images">
+                <img src="./photo/kund.jpg" alt="" class="img" id="img1">
+                <img src="./photo/read.jpg" alt="" class="img" id="img2">
+                <img src="./photo/rise.jpg" alt="" class="img" id="img3">
+                <img src="./photo/book.jpg" alt="" class="img" id="img4">
+            </div>
+            <div class="details">
+            <h1 id="About">Know About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, officia dolorum blanditiis aliquid
+                dolor laboriosam quas fugit. Commodi quaerat ipsam consequatur cumque! Voluptatum mollitia animi error
+                asperiores cum laborum enim perferendis minus maxime facere iste reiciendis obcaecati est vero
+                repellendus, provident Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique reiciendis
+                similique! Explicabo sequi ab voluptates doloribus ratione. Nobis culpa dolores consequatur maxime,
+                possimus molestias voluptatibus autem, nemo illum harum accusantium quos repellat? Tempore a rerum
+                deleniti animi dolore dolorum alias quidem suscipit quasi harum, quos explicabo voluptatem
+                necessitatibus fugit laborum reiciendis voluptatum iusto repudiandae ducimus illum debitis ut soluta?
+                architecto quos, iusto exercitationem id a! Corporis, ea modi.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="butons">
+        <button id="btns1"></button>
+        <button id="btns2"></button>
+        <button id="btns3"></button>
+        <button id="btns4"></button>
+    </div>
+    <div class="services" id="service">
+        <div class="service-content">
+        <h1>Our Services</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit sapiente cumque voluptatibus velit vel reprehenderit unde blanditiis quas fuga eos!</p>
+        </div>
+        <div class="grid">
+            <div class="box" id="box1">
+                <div class="first-icon">
+                <img src="./photo/service1.svg" alt="">
+            </div>
+            <div class="box-content">
+                <h1>Vastu Shastra</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsam?</p>
+                <button>Read More</button>
+            </div>
+            </div>
+            <div class="box" id="box2">
+                <div class="first-icon">
+                    <img src="./photo/service2.svg" alt="">
+                </div>
+                <div class="box-content">
+                    <h1>Birth Journal</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsam?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="box" id="box3">
+                <div class="first-icon">
+                    <img src="./photo/service3.svg" alt="">
+                </div>
+                <div class="box-content">
+                    <h1>Manglik Dosha</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsam?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="box" id="box4">
+                <div class="first-icon">
+                    <img src="./photo/service4.svg" alt="">
+                </div>
+                <div class="box-content">
+                    <h1 id="lal">Lal Kitab</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsam?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="box" id="box5">
+                <div class="first-icon">
+                    <img src="./photo/service5.svg" alt="">
+                </div>
+                <div class="box-content">
+                    <h1 id="lal">Crystal Ball</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsam?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="box" id="box6">
+                <div class="first-icon">
+                    <img src="./photo/service6.svg" alt="">
+                </div>
+                <div class="box-content">
+                    <h1>Kundli Dosha</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsam?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="box" id="box7">
+                <div class="first-icon">
+                    <img src="./photo/service7.svg" alt="">
+                </div>
+                <div class="box-content">
+                    <h1>Tarot Reading</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsam?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="box" id="box8">
+                <div class="first-icon">
+                    <img src="./photo/service8.svg" alt="">
+                </div>
+                <div class="box-content">
+                    <h1>Palm Reading</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsam?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="contact">
+        <div class="left-side">
+            <div class="logo-description">
+                <img src="./photo/astro.svg" alt="">
+                <p>Lorem ipsum dolor sitnderit corrupti fugiat sed consequatur, sequi dolores aperiam temporibus quisquam, adipisci ut.2</p>
+            </div>
+            <p  id="ul-p">Follow US</p>
+            <ul>
+                <li><a href="">
+                    <img src="./photo/facebook.svg" alt="">
+                </a></li>
+                <li><a href="">
+                    <img src="./photo/twitter.svg" alt="">
+                </a></li>
+                <li><a href="">
+                <img src="./photo/youtube.svg" alt="">
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script>
+    var preloader = document.getElementById("preloader")
+    function myfunc() {
+        preloader.style.display = "none";
+    }
+    //   let btn=document.querySelector(".sign");
+    //   let box=document.querySelector(".chatbox")
+    //   let stat=document.querySelector(".stat")
+    //   console.log(btn)
+    //   btn.onclick=function(){
+    //     if (box.style.display=="none") {
+    //         box.style.display="block"
+    //         btn.textContent="-";
+    //         stat.style.marginTop="0%"
+    //     } else {
+    //         box.style.display="none"
+    //         btn.textContent="+";
+    //         stat.style.marginTop="38%"
+    //     }
+    //   }
+    //   $(document).ready(function (){
+    //     setInterval(() => {
+    //         $(".para").fadeOut()
+    //     }, 9000);
+    //   })
+    //   $(document).ready(function (){
+    //     setInterval(() => {
+    //         $(".para").fadeIn()
+    //     }, 4000);
+    //   })
+    let img = document.querySelectorAll(".img");
+    let btns1 = document.getElementById("btns1")
+    let btns2 = document.getElementById("btns2")
+    let btns3 = document.getElementById("btns3")
+    let btns4 = document.getElementById("btns4")
+    btns2.onclick = function () {
+        document.getElementById("img2").style.display = "block"
+        document.getElementById("img1").style.display = "none"
+        document.getElementById("img3").style.display = "none"
+        document.getElementById("img4").style.display = "none"
+        btns2.style.background = "orange"
+        btns1.style.background = "#d9d1d1"
+        btns3.style.background = "#d9d1d1"
+        btns4.style.background = "#d9d1d1"
+    }
+    btns3.onclick = function () {
+        document.getElementById("img3").style.display = "block"
+        document.getElementById("img2").style.display = "none"
+        document.getElementById("img1").style.display = "none"
+        document.getElementById("img4").style.display = "none"
+        btns3.style.background = "orange"
+        btns1.style.background = "#d9d1d1"
+        btns2.style.background = "#d9d1d1"
+        btns4.style.background = "#d9d1d1"
+    }
+    btns4.onclick = function () {
+        document.getElementById("img4").style.display = "block"
+        document.getElementById("img2").style.display = "none"
+        document.getElementById("img1").style.display = "none"
+        document.getElementById("img3").style.display = "none"
+        btns4.style.background = "orange"
+        btns1.style.background = "#d9d1d1"
+        btns3.style.background = "#d9d1d1"
+        btns2.style.background = "#d9d1d1"
+        document.getElementById("img4").style.position = "absolute"
+
+    }
+    btns1.onclick = function () {
+        document.getElementById("img1").style.display = "block"
+        document.getElementById("img2").style.display = "none"
+        document.getElementById("img4").style.display = "none"
+        document.getElementById("img3").style.display = "none"
+        btns1.style.background = "orange"
+        btns2.style.background = "#d9d1d1"
+        btns3.style.background = "#d9d1d1"
+        btns4.style.background = "#d9d1d1"
+        document.getElementById("img1").style.position = "absolute"
+
+    }
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.nav').fadeToggle(10)
+    })
+})
+</script>
+
+</html>

@@ -1,0 +1,174 @@
+body{
+    margin: -403px 0px;
+}
+.loading img{
+    height: 150px ;
+    width: 150px;
+    left: 130px    ;
+    top: 170px;
+    position: relative;
+}
+header{
+    line-height: 38px;
+    margin-top: 238px;
+}
+.detail{
+    flex-direction: column;
+    position: relative;
+    border: none;
+    left: -24px;
+    top: 35px;
+    height: 110px;
+}
+
+.contact img{
+display: none;
+}
+.contact p{
+    font-size: 14px;
+    width: 82px;
+    display: block;
+    margin-bottom: 20px;
+}
+.gmail{
+    margin: 0px;
+    height: 0px;
+}
+.gmail p{
+    font-size: 14px;
+}
+.gmail img{
+display: none;
+}
+.logo img{
+    height: 34px ;
+    width: 85px;
+    top: 10px;
+}
+.nav{
+    display: none;
+}
+.toggle{
+    display: flex;
+    position: relative;
+    left: 136px;
+    width: 29px;
+    height: 20px;
+    border-radius:3px;
+    top: 44px;
+    left: 16pc;
+}
+.nav ul{
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: lighter;
+    position:fixed  ; 
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    left: 0px;
+width: 53%;
+top: -18px;
+height: 49vh;
+z-index: 6;
+}
+.nav ul li{
+    margin: 7px 0px;
+}
+nav li a{
+    margin: 30px 0px;
+}
+.nav a::before{
+    display: none;
+    height: 0px;
+}
+.para{
+    top: -110px;
+    text-align: center;
+    justify-content: center;
+}
+.para h1{
+    margin-left: -35px;
+}
+.para span{
+    width: 350px;
+    position: relative;
+    left: -62px;
+}
+.images img{
+    height: 335px;
+    width: 304px;
+    left: 50px;
+}
+.images{
+    margin: 0px 0px;
+}
+.butons{
+    margin: -95px 30px;
+    position: relative;
+    top: -530px;
+}
+.butons button{
+    height: 8px;
+    width: 8px;
+}
+.details{
+    left: 20px;
+    top: 370px;
+    margin-bottom: 400px;
+    width: 376px;
+}
+.details h1{
+    font-size: 28px;
+    border: none;
+}
+.details h1::after{
+    content: "";
+    top: -40px;
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: orange;
+}
+.details p{
+    margin-top: -80px;
+    width: 380px;
+}
+.details button{
+    padding: 10px 12px;
+}
+.services{
+    margin-top: 130px;
+}
+.service-content p{
+    width: 380px;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    width: 0px;
+}
+.box{
+    width: 340px;
+    position: relative;
+    left: -80px;
+}
+.box img{
+    left: 116px;
+}
+.first-icon::after{
+    left: 103px;
+}
+.box-content{
+    margin-left: 70px;
+}
+footer{
+    top: 3300px;
+}
+.left-side{
+    left: -27px;
+}
+#ul-p{
+    width:100px;
+}

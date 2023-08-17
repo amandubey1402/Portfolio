@@ -1,0 +1,431 @@
+body {
+    background-color:rgb(245, 243, 243);
+}
+
+header {
+    background-color: white;
+    height: 130px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -168px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    position: relative;
+    top: -54px;
+    left: -161px;
+}
+
+ul li {
+    font-size: 14px;
+    padding: 0px 16px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+li a{
+    transition:all 0.5s linear;
+}
+li a:hover{
+    color: orange;
+}
+#special a:hover{
+ background-color: rgb(229, 173, 31);
+}
+.contain span {
+    position: relative;
+    top: 19px;
+    font-size: 27px;
+    display: flex;
+    margin: -1px 46px;
+}
+
+.extra {
+    display: flex;
+}
+
+.color {
+    padding: 6px;
+    margin-top: 0px;
+    font-size: 21px;
+    position: relative;
+    left: 27px;
+    top: 10px;
+}
+
+#special a{
+    background-color: orange;
+    color: aliceblue;
+    padding: 8px;
+    margin-top: -18px;
+}
+
+#differ {
+    color: cyan;
+}
+
+#same {
+    color: orange;
+}
+
+.body {
+    height: 604px;
+    margin-top: -44px;
+    margin-left: 9px;
+}
+
+.body::before {
+    content: "";
+    background: url("./photo/Group 3 2.png")no-repeat center center/cover;
+    position: absolute;
+    width: 1100px;
+    height: 760px;
+    z-index: 1;
+}
+
+.odd {
+    width: 300px;
+    font-size: 26px;
+    margin-left: 486px;
+    margin-top: 100px;
+    position: relative;
+    top: 21px;
+}
+
+.web {
+    font-size: 30px;
+    position: relative;
+    left: 61px;
+    margin: 11px;
+}
+
+#design {
+    color: orange;
+}
+
+#facility {
+    color: cyan;
+}
+
+.container {
+    position: relative;
+    margin-left: 373px;
+    top: -10px;
+}
+
+.para {
+    font-size: 17px;
+    margin-left: 460px;
+    margin-top: -20px;
+}
+
+.spy {
+    margin-left: -47px;
+    position: relative;
+    top: -10px;
+}
+
+.box a {
+    display: inline-block;
+    position: absolute;
+    margin-left: 517px;
+    background-color: orange;
+    padding: 10px;
+    color: blue;
+    margin-top: 300px;
+    z-index: 2;
+    top: 478px;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box a:hover,
+.box:hover {
+    cursor: pointer;
+    color: orange;
+    background-color: cyan;
+}
+
+.nxt {
+    font-size: 40px;
+    margin-left: 477px;
+    margin-top: 100px;
+}
+
+.manage {
+    position: relative;
+    left: -81px;
+    top: -37px;
+    width: 465px;
+
+}
+
+#miss {
+    padding: 0px 280px;
+    width: 760px;
+    margin-top: -35px;
+}
+
+.btn a {
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    width: 8%;
+    margin-left: 555px;
+}
+
+.body2 {
+    width: 100%;
+    margin-left: -130px;
+    margin-right: -8px;
+    margin-top: 250px;
+}
+
+.as {
+    margin-left: -27px;
+}
+
+.grid {
+    height: 200px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: -14px;
+}
+
+.item p {
+    margin-left: 100px;
+}
+
+.item1 {
+    margin: 23px;
+    width: 513px;
+    height: 256px;
+}
+
+#in {
+    position: relative;
+    width: 520px;
+    left: -8px;
+    top: 74px;
+}
+
+.inside {
+    position: absolute;
+    bottom: 0px;
+}
+.about {
+    position: relative;
+    bottom: 158px;
+    left: 557px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.patt {
+    position: relative;
+    margin: 30px;
+    display: grid;
+    margin-top: 180px;
+    grid-template-columns: 264px 1fr;
+    grid-template-rows: 1fr 2fr;
+    margin-left: -10px;
+    margin-right: -6px;
+    background-color: white;
+}
+
+.series {
+    display: grid;
+    margin-top: 11px;
+    margin: 14px;
+}
+
+#specie {
+    width: 277px;
+    font-size: 39px;
+}
+
+#specie2 {
+    width: 419px;
+    height: 88px;
+}
+
+#specie1 {
+    width: 500px;
+    position: relative;
+    top: 129px;
+    margin-left: 256px;
+
+}
+
+#specie3 {
+    height: 78px;
+    width: 531px;
+    margin-top: 149px;
+    margin-left: 250px;
+}
+
+#specie4 {
+    position: relative;
+    top: -122px;
+    width: 414px;
+}
+
+.free {
+    margin-left: 263px;
+    margin-top: 46px;
+    color: blue;
+}
+.free:hover{
+    color: black;
+    text-decoration: underline;
+
+    transition: all 0.5s linear;
+}
+.phase {
+    font-size: 33px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+#do-it {
+    margin-left:964px;
+    padding: 13px 25px;
+    position: relative;
+    top: -48px;
+    color: orange;
+    border: 2px solid orange;
+    background-color:rgb(245, 243, 243);
+}
+#do-it{
+    transition: all 0.5s linear;
+}
+#do-it:hover
+{
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+.imp {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 400px 400px;
+    margin-left: 0px;
+    margin-top: 36px;
+}
+
+.imp img {
+    height: 310px;
+    width: 210px;
+    margin-left: 50px;
+}
+
+.item {
+    background-color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+.item p,.item a{
+    text-decoration: none;
+    color: black;
+}
+.item:hover p {
+color: red;
+}
+.resource b {
+    font-size: 44px;
+}
+
+.resource {
+    width: 744px;
+    margin-left: 10px;
+    margin-top: 250px;
+}
+.gess ol {
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.gess ol li {
+    padding: 20px;
+}
+
+.gess ol li p {
+    margin-top: 5px;
+}
+
+.sf {
+    height: 139px;
+    background-color: black;
+    padding: 0px 34px;
+    margin-left: -8px;
+    margin-right: -171px;
+}
+
+    .sf span {
+        color: cyan;
+        font-size: 30px;
+        position: relative;
+        top: 30px;
+        display: block;
+        margin: auto;
+        width: 34%;
+    }
+
+    .sf p {
+        display: block;
+        color: white;
+        width: 395px;
+        margin: auto;
+        margin-top: 23px;
+    }
+
+.we p {
+    color: cyan;
+    font-size: 30px;
+    margin-left: 950px;
+    position: relative;
+    top: -47px;
+}
+
+.foot p {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+footer {
+    margin-left: -17px;
+    margin-top: -20px;
+    margin-right: -171px;
+}
+
+.foot {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.foot span {
+    position: relative;
+    top: -27px;
+}
+
+#cult {
+    color: orange;
+    margin-left: 10px;
+}
+
+#why {
+    color: cyan;
+    margin-left: 10px;
+}
+
+.every {
+    font-family: Arial, Helvetica, sans-serif;
+}

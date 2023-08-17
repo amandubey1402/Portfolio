@@ -1,0 +1,557 @@
+*{
+    padding: 0px;
+    margin: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #141415;
+}
+body img{
+    background: url('./photo/bg1.jfif')no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    opacity: .4;
+    position: fixed;
+}
+.preloader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    background: url('https://media.tenor.com/XasjKGMk_wAAAAAC/load-loading.gif')no-repeat center center;
+}
+ .loading img {
+    animation: rotation 8s infinite linear;
+    height: 390px;
+    width: 390px;
+    position: relative;
+    opacity: 1;
+    top: 200px;
+    left: 653px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+.logo{
+    border-right: 1px solid white;
+    width: 200px;
+    margin-left: 55px;
+}
+.logo img{
+    height: 50%;
+    width: 94%;
+    position: relative;
+    z-index: 2;
+    opacity:1;
+    left: -22px;
+    top: 28px;
+}
+header{
+    display: flex;
+    border-bottom: 1px solid white;
+    line-height: 135px;
+    position: relative;
+    top: -389px;
+}
+.detail{
+    display: flex;
+    margin-top: -20px;
+    font-size: 20px;
+    color:white;
+    border-bottom: 1px solid white;
+    width: 935px;
+    height: 90px;
+}
+.contact p{
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    left: 33px;
+    font-size: 17px;
+}
+.contact{
+    margin-top: -17px;
+}
+.contact p:hover{
+    color: orange;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.contact img{
+    left: 32px;
+    height: 24px;
+    width: 26px;
+    opacity: 1;
+    position: relative;
+    top: 6px;
+}
+.gmail{
+    margin-left: 42px;
+    margin-top: -20px;
+    height: 109px;
+}
+.gmail p{
+    display: inline-block;
+    height: 0px;
+    position: relative;
+    left: 33px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.gmail p:hover{
+    transition: all 0.3s linear;
+    color: orange;
+    cursor: pointer;
+}
+.gmail img{
+    left: 32px;
+    height: 28px;
+    width: 29px;
+    opacity: 1;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+.nav ul{
+    position: relative;
+    top: 92px;
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+        height: 62px;
+    left: 68px;
+    }
+    .toggle{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    .toggle span{
+        height: 5px;
+        cursor: pointer;
+    }
+    .toggle span::after{
+        position: relative;
+        display: block;
+        height: 2px;
+        width: 25px;
+        content: "";
+        background-color: orange;
+    }
+.nav ul li {
+    margin:-33px 10px;
+    font-size: 15px;
+    height: 92px;
+    }
+.nav a::before{
+    content: "";
+    margin: auto;   
+    position: relative;
+    width: 0%;
+    height: 3px;
+    border-radius: 4px;
+    top: 33px;
+    transition: 0.5s;
+    display: block;
+    background-color: orange;
+}
+.nav a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+}
+.nav ul li a:hover , .active a{
+    color: orange;
+}
+.nav ul li a:hover::before,.active a{
+    width: 100%;
+    display: block;
+}
+.para{
+    position: relative;
+    top: -270px;
+    left: 100px;
+    width: 200px;
+}
+.para p{
+    color: orange;
+    font-size: 21px;
+}
+.para h1{
+    color: white;
+    font-weight: bold;
+    width: 297px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.para span{
+    color: white;
+    width: 550px;
+    display: block;
+} 
+.chatbox{
+    z-index: 3;
+    opacity: 1  ;
+    position: fixed;
+    left: 720px;
+    top: 113px;
+    width: 400px;
+    background-color: white;
+    height: 425px;
+}
+.contain button{
+    position: relative;
+    top: 25px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    left: 0px;
+}
+
+.contain button:hover{
+    background-color: #5c5b5b;
+}
+.stat{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background-color: black;
+    height: 63px;
+    border-top-left-radius: 10px;
+    width: 400px;
+    left: 720px;
+    top: 53px;
+    opacity: 1;
+    position: fixed;
+    z-index: 3;
+    align-items: center;
+}
+.contain{
+    padding: 0px 20px;
+}
+.paragra{
+    margin-bottom: 40px;
+}
+.contain input{
+    padding: 0px 10px;
+    color: white;
+    font-size: 19px;
+    height: 40px;
+    border-radius: 4px;
+    width: 93%;
+    background-color:  #101562;
+}
+.sign{
+    text-align: center;
+    height: 28px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    position: relative;
+    font-size: 22px;
+    left: -20px;
+}
+.stat span{
+    position: relative;
+    left: 10px;
+}
+.para button{
+    padding: 7px 45px;
+    background: orange;
+    border: none;
+    color: white;
+}
+.para button:hover{
+    background-color: #141415;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.images{
+    margin-top:-80px ;
+    margin-bottom: 50px;
+}
+.images img{
+    height: 360px;
+    width: 340px;
+    position: absolute;
+    z-index: 3;
+    opacity: 1;
+    left: 160px;
+    }
+.butons button{
+    position: relative;
+    z-index: 3;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    height: 11px ;
+    width: 11px;
+    border-radius: 50%;background: #d9d1d1;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+.butons{
+    margin: 0px 120px;
+    position: relative;
+    top: -240px;
+}
+#img2{
+    display: none;
+}
+#img3{
+    display: none;
+}
+#img4{
+    display: none;
+}
+.details{
+    color: white;
+    width: 460px;
+    position: relative;
+    left: 560px;
+    top: -89px;
+}
+.details h1{
+    margin: 9px 0px;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border-bottom: 2px solid orange;
+    line-height: 128px;
+    width: 230px;
+    border-radius: 3px;
+}
+.details button{
+    background-color: orange;
+    padding:15px 40px;
+    margin-top: 30px;
+    transition: .3s all linear;
+    border: none;
+    color: white;
+    font-weight: 600px;
+    font-size: 18px;
+}
+.details button:hover{
+    background-color: #141415;
+    cursor: pointer;
+}
+.services p{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 640px;
+    text-align: center;
+}
+.services{
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-template-rows: 410px 410px;
+    position: absolute;
+    left: 84px;
+    height: 400px;
+    width: 800px;
+}
+.box{
+    padding: 0px 15px;
+    margin: 10px 15px;
+    background-color: #18182c;
+}
+#lal{
+    position: relative;
+    left: 33px;
+}
+#lal::after{
+    content: "";
+    display:block;
+    position: relative;
+    background-color: orange;
+    height: 2px;
+    width: 70px;
+    left: 23px;
+}
+.service-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.service-content h1::after{
+    height: 3px;
+    border-radius: 3px;
+    width: 120px;
+    position: relative;
+    bottom: 0px;
+    content: "";
+    top: 10px;
+    left: 27px;
+    display: block;
+    background: orange;
+
+}
+.box img{
+    height: 36px;
+    width: 36px;
+    opacity: 1;
+    position: relative;
+    background-color: #17384e;
+    padding: 20px;
+    top: 37px;
+    left: 53px;
+    border-radius: 100%;
+    transition: all 0.3s linear;
+    z-index: 3;
+}
+.box:hover img{
+    cursor: pointer;
+    background-color: orange;
+}
+.first-icon::after{
+    width: 100px;
+    height: 100px;
+    border: 1px dashed var(--al-alternate-bg);
+    content: '';
+    position: relative;
+    left: 40px;
+    top: -55px;
+    bottom: -10px;
+    right: -10px;
+    border-radius: 100%;
+    display: block;
+}
+.box:hover  .first-icon::after{
+    animation: rotation 9s linear infinite;
+    border: 1px dashed   orange;
+}
+.box-content{
+    display: flex;
+    flex-direction: column;
+}
+.box-content h1{
+    font-size: 25px;
+    position: relative;
+    left: 17px;
+}
+.box-content h1::after{
+    content: "";
+    width: 70px;
+    position: relative;
+    display: block;
+    height: 2px;
+    left: 40px;
+    top: 10px;
+    border-radius: 4px;
+    background-color: orange;
+}
+.box-content p{
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: -4px;
+    top: 10px;
+}
+.box-content button{
+    position: relative;
+    top: -50px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    width: 100px;
+    left: 46px;
+    color: orange;
+   transition: all 0.5s linear;
+}
+.box-content button::after{
+    content: "";
+    position: relative;
+    width: 74%;
+    left: 13px;
+    height:2px;
+    background-color: orange;
+    display: block;
+    top: 10px;
+}
+.box-content button:hover{
+   font-size: 16px;
+   color: white    ;
+}
+.box-content button:hover::after{
+    background-color: white;
+    position: relative;
+    right: 0px;
+    right: 100%;
+    transition: all .3s linear   ;
+}
+footer{
+    height: 200px;
+    position: relative;
+    top: 850px;
+    margin-left: 40px;
+}
+.logo-description img{
+    height: 170px;
+    width: 170px;
+    position: relative;
+    opacity: 1;
+}
+.left-side{
+    width: 50%;
+    left: 60px;
+    position: relative;
+}
+.logo-description{
+    margin-bottom: 30px;
+}
+.left-side P{
+    width: 400px;
+    color:white;
+    position: relative;
+    top: -30px;
+}
+.left-side ul{
+    display:flex;
+    position: relative;
+    top: -20px;
+    left: -10px;
+}
+.left-side ul li{
+    list-style: none;
+    margin: 0px 10px;
+    background-color: #17384e;
+    border-radius: 100%;
+    padding: 10px;
+    transition: all 0.5s linear;
+}
+.left-side ul li:hover{
+    background-color: orange;
+}
+.left-side ul li a img{
+    color: red;
+    position: relative;
+    height: 20px ;
+    width: 20px;
+    opacity: 1;
+    z-index:6;
+}

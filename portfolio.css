@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color:white;    
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: right ;
+}
+.container{
+    padding:0px 6%;
+}
+nav img{
+margin-top: -15px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    margin-top: -60px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 15px;
+}
+nav ul li a:hover{
+    transition: 2s;
+    color: yellow;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+ul li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    display: block;
+    margin: auto;
+    left: 0px;
+    background-color : red;
+    transition: all 1s linear;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    margin-top:20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: hotpink;
+}
+/*.............About.................*/
+
+#about{
+    padding: 120px 0px;
+}
+.row{
+    display: flex;
+    justify-content: space-between   ;
+    flex-wrap: wrap;
+}
+.cols-1{
+    flex-basis:35%;
+}
+.cols-1 img{
+    width: 100% ;
+    border-radius: 20px;
+    height: 80%;
+}
+.cols-2{
+    flex-basis: 55%;
+}
+.sub-text{
+    font-size: 60px ;
+    font-weight: 600;
+    color: red;
+}
+.tab-title{
+    display: flex;
+    margin: 20px 0px;
+}
+.tab-links{
+    margin: 0px 10px ;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;    
+}
+.tab-links::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background   : yellow;
+    transition:  1s ;   
+}
+.tab-links.active-link::after{
+    width: 100%;
+}
+.tab-contents ul{
+    display: flex;
+    flex-direction: column;
+}
+.tab-contents ul li span{
+    font-size: 14px;
+    color: cyan ;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+/* ...................services...................... */
+ .containe{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    text-align: center;
+} 
+.box1{
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    margin: 0px 30px;
+    background-color: #423d3d;
+}
+.box1:hover{
+    translate: 0px -10px ;
+    background-color: rgb(220, 240, 130);
+    transition: all .5s ease-in-out;
+    color: rgb(34, 16, 235)
+    ;
+}
+.head{
+    font-weight: bold;
+    font-size: 55px;
+    margin: 40px 10px;
+    color: rgb(241, 211, 122);
+}
+.box1 h1{
+    margin-top: 50px;
+    color: rgb(243, 7, 27);
+}
+/* ...........................my work............................ */
+#work{
+padding: 50px 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.boxes{
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.sub-titles{
+    font-size: 60px;
+}
+.boxes img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    transition:transform  1s;
+}
+.boxes:hover  img {
+    transform: scale(1.1);
+}
+.layer{
+    width: 100%;
+    height: 0%;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: height 2s;
+}
+.layer h3{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.boxes:hover .layer{
+    height: 100%;
+}
+#work button{
+    padding: 6px 20px;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 70px;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+    border:solid  rgb(235, 12, 49);
+    transition: all 1s linear;
+    cursor: pointer;
+}
+#work button:hover{
+    background-color:  rgb(235, 12, 49);
+}
+/* ......................contact..................... */
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    margin-top: -130px;
+}
+.call{
+    background-color: #828282;
+    margin: 10px 0px;
+    padding: 9px 5px;
+    font-weight: 510;
+    color: rgb(0, 0, 0);
+    margin-left: 550px;
+    width: 450px;
+}
+.header h1{
+    font-size: 65px;
+}
+.btn{
+    margin-left:550px ;
+    padding: 10px 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(239, 6, 44);
+        background-color: black;
+        border: 2px solid red;
+}
+.header span{
+    font-size: 20px;
+    padding: 20px 0;
+    color: pink;
+    display: flex;
+    margin-left: 20px;    
+                                                                                                      ;
+}

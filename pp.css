@@ -1,0 +1,128 @@
+#header{
+    height: 32vh;
+}
+nav img{
+    height: 100px;
+    width: 100px;
+}
+nav ul{
+    margin-top: -20px;
+}
+ul li{
+    margin: 0px 3px;
+}
+ul li a{
+   font-size: 10px;
+}
+ul li a::after{
+    height: 1px;
+}
+.header-text{
+    font-size: 13px;
+    margin-top: 10%;
+}
+.header-text h1{
+    font-size: 15px;
+}
+/* .......................About................. */
+#about{
+    padding: 0px;
+}
+.cols-1 img{
+    height: 240px;
+}
+.sub-text{
+    font-size: 15px ;
+}
+.tab-links::after{
+    height: 2px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.cols-2 p{
+    font-size: 8px;
+}
+.tab-contents ul li span{
+    font-size: 10px;
+}
+.tab-contents ul li {
+    font-size: 8px;
+}
+/* .................service.................... */
+.containe{
+    flex-direction: column;
+    }
+.head{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.box1{
+    margin: 10px 150px;
+    height: 210px;
+    width:180px;
+}
+.box1 h1{
+    font-size: 15px;
+}
+.box1 p{
+    font-size: 8px;
+    padding: 0px 20px;
+}
+/* ..................my work............ */
+.sub-titles{
+    font-size: 17px;
+    margin-left: -40px;
+}
+.work-list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px  ;
+}
+#work button{
+    font-size: 10px;
+    padding: 5px;
+    border: 1px solid rgb(235, 12, 49);
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.boxes img{
+    width: 75%;
+}
+#box-1{
+    height: 200px;
+}
+.layer{
+    width: 79%;
+    border-radius: 4px;
+}
+/* ....................contact................. */
+.header h1{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.header span{
+    font-size: 8px;
+    height: 40px;
+    display: inline-block;
+position: relative;
+top: 220px;
+left: 60px;
+padding: 0px 10px;
+margin-top: 100px;
+}
+
+form{
+    margin-left: -530px;
+}
+.call{
+    font-size: 8px;
+    width: 350px;
+}
+.btn{
+    margin-left: 168px;
+    margin-top: 10px;
+    font-size: 8px;
+    padding: 5px 8px;
+}
