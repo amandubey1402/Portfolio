@@ -16,7 +16,7 @@
 
 <body onload="myfunc()">
     <div id="preloader"></div>
-    <!-- <div class="stat">
+    <div class="stat">
         <span>Start Chat</span>
         <p class="sign">-</p>
     </div>
@@ -33,7 +33,7 @@
         <input type="text" id="Name">
         <button>Start Chat</button>
     </div>  
-    </div> -->
+    </div>
     <img src="./photo/bg1.jpg" alt="">
     <div class="loading">
         <img src='./photo/ckakra.png' alt="">
@@ -217,31 +217,31 @@
     function myfunc() {
         preloader.style.display = "none";
     }
-    //   let btn=document.querySelector(".sign");
-    //   let box=document.querySelector(".chatbox")
-    //   let stat=document.querySelector(".stat")
-    //   console.log(btn)
-    //   btn.onclick=function(){
-    //     if (box.style.display=="none") {
-    //         box.style.display="block"
-    //         btn.textContent="-";
-    //         stat.style.marginTop="0%"
-    //     } else {
-    //         box.style.display="none"
-    //         btn.textContent="+";
-    //         stat.style.marginTop="38%"
-    //     }
-    //   }
-    //   $(document).ready(function (){
-    //     setInterval(() => {
-    //         $(".para").fadeOut()
-    //     }, 9000);
-    //   })
-    //   $(document).ready(function (){
-    //     setInterval(() => {
-    //         $(".para").fadeIn()
-    //     }, 4000);
-    //   })
+      let btn=document.querySelector(".sign");
+      let box=document.querySelector(".chatbox")
+      let stat=document.querySelector(".stat")
+      console.log(btn)
+      btn.onclick=function(){
+        if (box.style.display=="none") {
+            box.style.display="block"
+            btn.textContent="-";
+            stat.style.marginTop="0%"
+        } else {
+            box.style.display="none"
+            btn.textContent="+";
+            stat.style.marginTop="38%"
+        }
+      }
+      $(document).ready(function (){
+        setInterval(() => {
+            $(".para").fadeOut()
+        }, 9000);
+      })
+      $(document).ready(function (){
+        setInterval(() => {
+            $(".para").fadeIn()
+        }, 4000);
+      })
     let img = document.querySelectorAll(".img");
     let btns1 = document.getElementById("btns1")
     let btns2 = document.getElementById("btns2")
